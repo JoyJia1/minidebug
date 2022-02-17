@@ -1,0 +1,1 @@
+<block wx:if="{{$taroCompReady}}"><view class="pin-container"><view class="appinfo-item"><text>当前用户pin：</text><text class="item-value">{{userPin}}</text></view><input class="appinfo-input" bindinput="handleInput" placeholder="请输入要修改的pin" value="{{inputPin}}"/><button class="confirm-button" bindtap="handleConfirm">确认修改</button></view></block>

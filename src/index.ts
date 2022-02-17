@@ -1,1 +1,1 @@
-export { default as Debug } from './components/debug/Debug'
+export { default as Debug } from './pages/index/components/debug/Debug'

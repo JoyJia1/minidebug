@@ -8,7 +8,7 @@ const config = {
     '828': 1.81 / 2
   },
   sourceRoot: 'src',
-  outputRoot: 'dist',
+  outputRoot: process.env.TARO_ENV+'dist',
   plugins: {
     babel: {
       sourceMap: true,
@@ -27,6 +27,9 @@ const config = {
   defineConstants: {
   },
   weapp: {
+    npm:{
+      dir:'../'+process.env.TARO_ENV+'dist/pages/index/'
+  },
     module: {
       postcss: {
         autoprefixer: {

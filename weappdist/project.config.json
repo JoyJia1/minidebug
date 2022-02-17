@@ -1,5 +1,4 @@
 {
-  "miniprogramRoot": "dist/",
   "projectname": "MiniDebug",
   "description": "小程序MiniDebug工具",
   "appid": "wx28a6b2fce1f141ca",
@@ -36,9 +35,7 @@
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "disableUseStrict": false,
     "showES6CompileOption": false,
-    "useCompilerPlugins": false,
     "minifyWXML": true
   },
   "compileType": "miniprogram",

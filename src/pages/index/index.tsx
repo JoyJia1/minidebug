@@ -3,7 +3,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 
 import './index.scss'
-import Debug from '../../components/debug/Debug'
+import Debug from './components/debug/Debug'
 
 type PageStateProps = {}
 
